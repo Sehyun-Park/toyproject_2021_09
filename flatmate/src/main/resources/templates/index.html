@@ -1,0 +1,15 @@
+<!DOCTYPE html>
+<html lang="ko" xmlns:th="http://www.thymeleaf.org">
+<head>
+<meta charset="UTF-8">
+<title>flatmate</title>
+</head>
+<body>
+<h1>test</h1>
+hello world!
+<ul th:each="resident : ${residentList}">
+	<li th:text="${resident.resident_id}"></li>
+	<li th:text="${resident.resident_password}"></li>
+</ul>
+</body>
+</html>
