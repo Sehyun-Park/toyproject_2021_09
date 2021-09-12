@@ -2,6 +2,6 @@
 <!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN" "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
 <mapper namespace="com.toyproject.flatmate.dao.ResidentDAO">
     <select id="getResident_id" resultType="com.toyproject.flatmate.dto.ResidentDTO">
-     	select resident_id, resident_password from resident where resident_name='홍길동'
+     	select resident_id, resident_password from resident
     </select>
 </mapper>
