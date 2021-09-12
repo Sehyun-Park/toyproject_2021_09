@@ -9,4 +9,6 @@ import com.toyproject.flatmate.dto.ResidentDTO;
 @Mapper
 public interface ResidentDAO {
     public List<ResidentDTO> getResident_id();
+
+	public List<ResidentDTO> getKim_id();
 }
