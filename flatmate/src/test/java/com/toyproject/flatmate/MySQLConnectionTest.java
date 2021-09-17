@@ -14,7 +14,7 @@ public class MySQLConnectionTest {
     private static final String USER = "root";
     private static final String PASSWORD = "1234";
 
-    @org.junit.jupiter.api.Test
+    @Test
     public void testConnection() throws Exception {
         // DBMS에게 DB 연결 드라이버의 위치를 알려주기 위한 메소드
         Class.forName(DRIVER);
