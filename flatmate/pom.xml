@@ -59,7 +59,7 @@
 		    <scope>provided</scope>
 		</dependency>
 
-		<!-- 환경설정 ㅇㅇㅇㅇㅇㅇ-->
+		<!-- 환경설정 -->
 		<dependency>
 			<groupId>org.springframework.boot</groupId>
 			<artifactId>spring-boot-configuration-processor</artifactId>

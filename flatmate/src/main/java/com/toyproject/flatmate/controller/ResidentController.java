@@ -12,7 +12,7 @@ import com.toyproject.flatmate.dao.ResidentDAO;
 import com.toyproject.flatmate.dto.ResidentDTO;
 
 @Controller
-public class ResidentController1 {
+public class ResidentController {
 	
 	@Autowired
     private ResidentDAO residentDAO;

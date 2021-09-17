@@ -7,13 +7,16 @@
 <body>
 <h1>test</h1>
 hello world!
+
 <ul th:each="resident : ${residentList}">
 	<li th:text="${resident.resident_id}"></li>
 	<li th:text="${resident.resident_password}"></li>
 </ul>
+
 <ul th:each="resident : ${residentList}">
 	<li th:text="${resident.resident_id}"></li>
 	<li th:text="${resident.resident_password}"></li>
 </ul>
+
 </body>
 </html>
