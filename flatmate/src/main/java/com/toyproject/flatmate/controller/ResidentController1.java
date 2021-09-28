@@ -1,6 +1,7 @@
 package com.toyproject.flatmate.controller;
 
 import java.util.List;
+import java.util.Locale;
 
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Controller;
@@ -34,6 +35,16 @@ public class ResidentController1 {
 		
 		mv.setViewName("index");
 		mv.addObject("residentList", residentList);
+		
+		return mv;
+	}
+	
+	@GetMapping("/chat")
+	public ModelAndView chat(Locale locale) {
+		
+		ModelAndView mv = new ModelAndView();
+		
+		mv.setViewName("chat");
 		
 		return mv;
 	}
